@@ -2,7 +2,7 @@
 
 **Paper:** Cohler, J. and Soon, W. *Bomb-Radiocarbon Decay Falsifies the IPCC (Part II).*
 Appendix A.2, Operator-Equivalence Theorem. The exact version this file
-documents is [`paper/bomb14c-scc-part2.pdf`](paper/bomb14c-scc-part2.pdf)
+documents is [`paper/bomb14c_scc_part2.pdf`](paper/bomb14c_scc_part2.pdf)
 in this repository.
 **Formalization:** this repository, file `Oet/OperatorEquivalence.lean`.
 

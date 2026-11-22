@@ -5,7 +5,7 @@ Lean 4 formalization of the Operator-Equivalence Theorem.
 **Paper:** Cohler, J. and Soon, W. *Bomb-Radiocarbon Decay Falsifies the IPCC (Part II).*
 Science of Climate Change. Theorem and proof: Appendix A.2.
 The version matching this repository state is
-[`paper/bomb14c-scc-part2.pdf`](paper/bomb14c-scc-part2.pdf).
+[`paper/bomb14c_scc_part2.pdf`](paper/bomb14c_scc_part2.pdf).
 
 ![Lean build](https://github.com/cohler/oet-lean/actions/workflows/lean_action_ci.yml/badge.svg)
 
@@ -87,15 +87,16 @@ reports the current status.
 ## Versioning
 
 Each tag freezes the Lean source, this documentation, and the matching
-paper PDF (`paper/bomb14c-scc-part2.pdf`) together. Tags are never
+paper PDF (`paper/bomb14c_scc_part2.pdf`) together. Tags are never
 moved; a new paper version gets a new tag.
 
-| Tag    | Paper version | Date          |
-|--------|---------------|---------------|
-| `v1.0` | Manuscript    | November 2026 |
+| Tag    | Paper version        | Date          |
+|--------|----------------------|---------------|
+| `v1.0` | Manuscript           | November 2026 |
+| `v1.1` | Revised manuscript   | November 2026 |
 
-To build the version matching a given paper, run `git checkout <tag>`
-before `lake build`.
+The Lean source is identical in `v1.0` and `v1.1`. To build the version
+matching a given paper, run `git checkout <tag>` before `lake build`.
 
 ## Toolchain
 
